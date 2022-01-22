@@ -68,6 +68,13 @@ html{
       margin: 0%;
       border: 1px solid black;
   }
+/* APP */
+#content{
+    display: flex;
+    flex-direction: row;
+}
+
+
 /* TOP */
 #top{
     width: 100%;
@@ -75,12 +82,15 @@ html{
 }
 
 /* HEADER */
+#header{
+    background-color: white;
+}
 #logo{
+    margin: 5px;
     width: 100%;
     font-family: 'Bebas Neue', cursive;
     font-size: 36px;
     text-align: center;
-    background-color: white;
 }
 #rightnavbar{
     display: flex;
@@ -106,8 +116,18 @@ html{
 .nav:hover{
     background-color: #ededed;
 }
-
+/* FILTER */
+#filter{
+    background-color: royalblue;
+    height: 100%;
+    width: 300px;
+}
 /* ProductCard */
+.productcard{
+    background-color: pink;
+    width: 250px;
+    height: 400px;
+}
 
 
 
