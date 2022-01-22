@@ -1,8 +1,21 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
+import ProductCard from "./ProductCard";
 
 function Home(){
+    const[allProducts,setAllProducts]= useState([]);
+
+    useEffect (()=>{
+        fetch("https://fakestoreapi.com/products")
+        .then(response => response.json())
+        .then(data => setAllProducts(data))
+    },[]);
     return(
-        <div></div>
+        <div>
+            <p>Home</p>
+            <div>
+                {allProducts.map((product)=> <ProductCard product={product} key={product.id}/> )}
+            </div>
+        </div>
     )
 }
 
