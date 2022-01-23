@@ -14,7 +14,7 @@ function Women(){
     return(
         <div>
             <h1>Women's Clothing</h1>
-            <div>
+            <div className="products">
             {womenclothes.map((product)=> <ProductCard product={product} key={product.id}/> )}
             </div>
         </div>

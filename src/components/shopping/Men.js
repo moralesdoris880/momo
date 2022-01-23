@@ -14,7 +14,7 @@ function Men(){
     return(
         <div>
             <h1>Men's Clothing</h1>
-            <div>
+            <div className="products">
             {menclothes.map((menproduct)=> <ProductCard product={menproduct}/>)}
             </div>
         </div>

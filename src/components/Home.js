@@ -12,7 +12,7 @@ function Home(){
     return(
         <div>
             <p>Home</p>
-            <div>
+            <div className="products">
                 {allProducts.map((product)=> <ProductCard product={product} key={product.id}/> )}
             </div>
         </div>

@@ -13,7 +13,7 @@ function Jewelery(){
     return(
         <div>
             <h1>Jewelery</h1>
-            <div>
+            <div className="products">
             {jewelery.map((jewel)=> <ProductCard product={jewel}/>)}
             </div>
         </div>

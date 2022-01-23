@@ -3,8 +3,11 @@ import React from "react";
 function ProductCard({product}){
     return(
         <div className="productcard" key={product.id}>
-            <img src={product.image} alt={product.title}/>
-            <p>{product.title}</p>
+            <img className="productimage" src={product.image} alt={product.title}/>
+            <div className="productinfo" onClick={handleProduct}>
+                <p>{product.title}</p>
+                <p>{product.price}</p>
+            </div>
         </div>
     )
 }
