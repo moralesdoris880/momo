@@ -20,3 +20,5 @@ function Home(){
 }
 
 export default Home
+
+/* https://fakestoreapi.com/docs */
