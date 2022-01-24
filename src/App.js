@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Jewelery from "./components/shopping/Jewelery";
 import Header from "./components/Header";
 import Filter from "./components/Filter";
+import ModalBox from "./components/ModalBox";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         </Route>
        </Switch>
     </div>
+    <ModalBox />
     </div>
   );
 }
