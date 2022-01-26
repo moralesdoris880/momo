@@ -17,6 +17,8 @@ function ModalBox(){
         })
         .then(response => response.json())
         .then(data => console.log(data))
+        document.getElementById("submitted").style.display = "block"
+        document.getElementById("modalcontent").style.display = "none"
 
     }
 
@@ -40,8 +42,8 @@ function ModalBox(){
                     <input type="text" id="email" name="email" required onChange={handleEmail}></input><br/>
                     <input type="submit" value="Submit"></input>
                 </form>
-
             </div>
+            <h1 id="submitted">Thank you for Suscribing!</h1>
         </div>
     )
 }

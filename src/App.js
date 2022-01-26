@@ -7,6 +7,7 @@ import Jewelery from "./components/shopping/Jewelery";
 import Header from "./components/Header";
 import Filter from "./components/Filter";
 import ModalBox from "./components/ModalBox";
+import Suscribers from "./components/Suscribers";
 
 function App() {
   return (
@@ -17,21 +18,22 @@ function App() {
     <div id="content">
       <Filter />
       <Switch>
-        <Route path="/women-main">
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/women" exact>
           <Women />
         </Route>
-        <Route path="/men-main">
+        <Route path="/men" exact>
           <Men />
         </Route>
-        <Route path="/jewelery-main">
+        <Route path="/jewelery" exact>
           <Jewelery />
-        </Route>
-        <Route path="/">
-          <Home />
         </Route>
        </Switch>
     </div>
     <ModalBox />
+    <Suscribers />
     </div>
   );
 }

@@ -146,6 +146,9 @@ html{
   position: absolute;
   left: 70vh;
 }
+#submitted{
+  display: none;
+}
 
 
 

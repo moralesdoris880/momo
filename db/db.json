@@ -1,0 +1,34 @@
+{
+  "suscribe": [
+    {
+      "id": 1,
+      "name": "Rex Bosco",
+      "email": "rex.bosco@hotmail.com",
+      "rating": 8
+    },
+    {
+      "id": 2,
+      "name": "Enola Holmes",
+      "email": "enola.mayert@gmail.com",
+      "rating": 14
+    },
+    {
+      "id": 3,
+      "name": "Doris",
+      "email": "moralesdoris67@gmail.com",
+      "rating": 0
+    },
+    {
+      "id": 4,
+      "name": "Doris",
+      "email": "moralesdoris67@gmail.com",
+      "rating": 0
+    },
+    {
+      "id": 5,
+      "name": "Doris",
+      "email": "moralesdoris67@gmail.com",
+      "rating": 0
+    }
+  ]
+}

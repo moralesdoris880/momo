@@ -7,11 +7,11 @@ function NavBar(){
             <NavLink
             to="/" exact className="nav">HOME</NavLink>
             <NavLink
-            to="/women-main" exact className="nav">WOMEN'S</NavLink>
+            to="/women" exact className="nav">WOMEN'S</NavLink>
             <NavLink
-            to="/men-main" exact className="nav">MEN'S</NavLink>
+            to="/men" exact className="nav">MEN'S</NavLink>
             <NavLink
-            to="/jewelery-main" exact className="nav">JEWLERY</NavLink>
+            to="/jewelery" exact className="nav">JEWLERY</NavLink>
         </div>
     )
 }
