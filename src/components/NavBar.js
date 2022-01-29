@@ -11,7 +11,7 @@ function NavBar(){
             <NavLink
             to="/men" exact className="nav">MEN'S</NavLink>
             <NavLink
-            to="/jewelery" exact className="nav">JEWLERY</NavLink>
+            to="/jewelery" exact className="nav">JEWELERY</NavLink>
         </div>
     )
 }

@@ -29,6 +29,18 @@
       "name": "Doris",
       "email": "moralesdoris67@gmail.com",
       "rating": 0
+    },
+    {
+      "id": 6,
+      "name": "Roxas Lovely",
+      "email": "moralesdoris67@gmail.com",
+      "rating": 0
+    },
+    {
+      "id": 7,
+      "name": "Roxas Lovely",
+      "email": "roxaslovely@gmail.com",
+      "rating": 0
     }
   ]
 }
